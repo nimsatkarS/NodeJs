@@ -1,0 +1,18 @@
+{
+  "name": "sanket",
+  "version": "1.0.0",
+  "description": "This is the npm and nodemon installation project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cursive"
+  ],
+  "author": "Mayur",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "slugify": "^1.6.6"
+  }
+}
