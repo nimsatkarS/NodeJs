@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "sanket",
+  "version": "1.0.0",
+  "description": "this is the express installation tute",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awsom"
+  ],
+  "author": "",
+  "license": "ISC"
+}
