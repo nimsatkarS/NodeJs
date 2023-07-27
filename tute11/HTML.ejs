@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raw html</title>
+</head>
+<style>
+    .form {
+        border: 2px solid black;
+        width: 15%;
+        height: 201px;
+        border-radius: 14px;
+        position: relative;
+        left: 43%;
+        top: 227px;
+    }
+
+    h1 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    #input {
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+        margin: -1px;
+    
+    }
+    #btn{
+        text-align: center;
+    }
+</style>
+
+<body>
+    <form action="/register" method="post">
+    <div class="form">
+        <h1>Login</h1>
+        <div id="input">
+            <input type="text" name="useremail" placeholder="E-mail">
+        </div>
+        <div id="input">
+            <input type="text" name="userpassword" placeholder="Password">
+        </div>
+     <div id="input">
+        <button type="submit" id="btn">Submit</button>
+     </div>
+    </div>
+</form>
+</body>
+
+</html>
