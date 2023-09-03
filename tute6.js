@@ -1,3 +1,5 @@
+//Serve the different pages and option
+
 const http = require('http');
 const fs = require('fs');
 
